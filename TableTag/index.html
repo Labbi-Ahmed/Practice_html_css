@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewpoet" content="width=device-width, initial-scale=1.0">
+        <title>Table Tahg</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" type="image/icon-x" href="Images/favicon_io/favicon.ico">
+
+
+   
+    </head>
+
+    <body>
+     <section class="first">
+        <h1>This is the Table tag practice page</h1>
+        <table class="table1">
+            <caption>Using colgroup </caption>
+            <colgroup>
+                <col span="1" style="background-color:red ;">
+                <col span="1">
+                <col span="1" style="background-color:gray;">
+              </colgroup>
+            <tr >
+                <th >Name</th>
+                <th>Roll</th>
+                <th>Mark</th>
+            </tr>
+            <tr>
+                <td>Labbi Ahmed</td>
+                <td>1610676135</td>
+                <td>59%</td>
+            </tr>
+            <tr>
+                <td >Khayrul Ahmed</td>
+                <td>1610676134</td>
+                <td>69%</td>
+            </tr>
+            <tr>
+                <td>Rusho Ahmed</td>
+                <td>1610676140</td>
+                <td>68%</td>
+            </tr>
+            <tr>
+                <td>Ruhul Ahmed</td>
+                <td>1610676103</td>
+                <td>70%</td>
+            </tr>
+        </table>
+
+        <table class="table2">
+            <caption>This table with a theader</caption>
+            <thead>
+                <tr>
+                    <th>
+                        Name
+                    </th>
+                    <th>Roll</th>
+                    <th>Mark</th>
+                    <th>Status</th>
+                </tr>
+            </thead>
+            <tbody>
+                 <tr>
+                    <td>Labbi Ahmed</td>
+                    <td>1610676135</td>
+                    <td>59%</td>
+                    <td>pass</td>
+                </tr>
+                <tr>
+                    <td>Khayrul Ahmed</td>
+                    <td>1610676134</td>
+                    <td>69%</td>
+                    <td>pass</td>
+                </tr>
+                <tr>
+                    <td>Rusho Ahmed</td>
+                    <td>1610676140</td>
+                    <td>65%</td>
+                    <td>pass</td>
+                </tr>
+                <tr>
+                    <td>Ruhul Ahmed</td>
+                    <td>1610676102</td>
+                    <td>75%</td>
+                    <td>pass</td>
+                </tr>
+               
+                <tr>
+                    <td>Anis Ahmed</td>
+                    <td>1610676121</td>
+                    <td>69%</td>
+                    <td>pass</td>
+                </tr>
+            </tbody>
+        </table>
+        
+        <table class="table3">
+            <caption>This table content vertical header with a theader</caption>        
+                  
+            <tbody>
+                 <tr>
+                    <th>Name </th>
+                    <td>Labbi Ahmed</td>
+                    <td>Anis Ahmed</td>
+                    <td>Khayrul Ahmed</td>
+                    <td>Rusho Ahmed</td>
+                    <td>Ruhul Ahmed</td>
+                </tr>
+                <tr>
+                    <th>Roll</th>
+                    <td>1610676135</td>
+                    <td>1610676134</td>
+                    <td>1610676134</td>
+                    <td>1610676134</td>
+                    <td>1610676134</td>
+                   
+                </tr>
+                <tr>
+                    <th>Mark</th>
+                    <td>65%</td>
+                    <td>65%</td>
+                    <td>65%</td>
+                    <td>65%</td>
+                    <td>65%</td>
+                </tr>
+                <tr>
+                    <th>Status</th>  
+                    <td>pass</td>
+                    <td>pass</td>
+                    <td>pass</td>
+                    <td>pass</td>
+                    <td>pass</td>
+
+                </tr>
+               
+              
+            </tbody>
+        </table>
+    </section>
+        <section class="second">
+
+        <h1>This is the Table with no collapse</h1>
+        <table class="table4">
+            <caption >This is table using colgroup for color first 
+                column and spacing and padding use it</caption>
+            <colgroup>
+            <col span="1" style="background-color: green;">
+            </colgroup>
+            <tr >
+                <th >Name</th>
+                <th>Roll</th>
+                <th>Mark</th>
+            </tr>
+            <tr>
+                <td>Labbi Ahmed</td>
+                <td>1610676135</td>
+                <td>59%</td>
+            </tr>
+            <tr>
+                <td >Khayrul Ahmed</td>
+                <td>1610676134</td>
+                <td>69%</td>
+            </tr>
+            <tr>
+                <td>Rusho Ahmed</td>
+                <td>1610676140</td>
+                <td>68%</td>
+            </tr>
+            <tr>
+                <td>Ruhul Ahmed</td>
+                <td>1610676103</td>
+                <td>70%</td>
+            </tr>
+        </table>
+
+        <table class="table5">
+            <caption>This table with a theader</caption>
+            <thead>
+                <tr>
+                    <th colspan="2">
+                        Name and Roll
+                    </th>
+                  
+                    <th>Mark</th>
+                    <th>Status</th>
+                </tr>
+            </thead>
+            <tbody>
+                 <tr>
+                    <td>Labbi Ahmed</td>
+                    <td>1610676135</td>
+                    <td>59%</td>
+                    <td>pass</td>
+                </tr>
+                <tr>
+                    <td rowspan="2">Khayrul Ahmed<br>&amp;<br>
+                    Ruhul</td>
+                    <td>1610676134</td>
+                    <td rowspan="2" colspan="2">4 cells <br> span</td>
+                
+                </tr>
+                <tr>
+                    
+                    <td>1610676140</td>
+                   
+                    
+                </tr>
+                <tr>
+                    <td>Ruhul Ahmed</td>
+                    <td>1610676102</td>
+                    <td>75%</td>
+                    <td>pass</td>
+                </tr>
+               
+                <tr>
+                    <td>Anis Ahmed</td>
+                    <td>1610676121</td>
+                    <td>69%</td>
+                    <td>pass</td>
+                </tr>
+            </tbody>
+        </table>
+        
+        <table class="table6">
+            <caption>table style with the nth value </caption>
+     
+            <tbody>
+                 <tr>
+                    <th>Name </th>
+                    <td>Labbi Ahmed</td>
+                    <td>Anis Ahmed</td>
+                    <td>Khayrul Ahmed</td>
+                    <td>Rusho Ahmed</td>
+                    <td>Ruhul Ahmed</td>
+                </tr>
+                <tr>
+                    <th>Roll</th>
+                    <td>1610676135</td>
+                    <td>1610676134</td>
+                    <td>1610676134</td>
+                    <td>1610676134</td>
+                    <td>1610676134</td>
+                   
+                </tr>
+                <tr>
+                    <th>Mark</th>
+                    <td>65%</td>
+                    <td>65%</td>
+                    <td>65%</td>
+                    <td>65%</td>
+                    <td>65%</td>
+                </tr>
+                <tr>
+                    <th>Status</th>  
+                    <td>pass</td>
+                    <td>pass</td>
+                    <td>pass</td>
+                    <td>pass</td>
+                    <td>pass</td>
+
+                </tr>
+               
+              
+            </tbody>
+        </table>
+
+
+        <table class="twosideheader" style="border-collapse:collapse">
+            <caption>vertical and horizontal header</caption>
+     
+            <tbody>
+                 <tr>
+                    <th style="background-color:white"> </th>
+                    <th>Fri</th>
+                    <th>Sat</th>
+                    <th>Sun</th>
+                    <th>Mon</th>
+                    <th>Tue</th>
+                    <th>Wed</th>
+                    <th>Thu</th>
+                </tr>
+                <tr>
+                    <th>8:00AM</th>
+                    <td>1610676135</td>
+                    <td>1610676134</td>
+                    <td>1610676134</td>
+                    <td>1610676134</td>
+                    <td>1610676134</td>
+                    <td>1610676134</td>
+                    <td>1610676134</td>
+                   
+                </tr>
+                <tr>
+                    <th>2:00PM</th>
+                    <td>65%</td>
+                    <td>65%</td>
+                    <td>65%</td>
+                    <td>65%</td>
+                    <td>65%</td>
+                    <td>65%</td>
+                    <td>65%</td>
+                </tr>
+                <tr>
+                    <th>5:00PM</th>  
+                    <td>pass</td>
+                    <td>pass</td>
+                    <td>pass</td>
+                    <td>pass</td>
+                    <td>pass</td>
+                    <td>pass</td>
+                    <td>pass</td>
+
+                </tr>
+               
+              
+            </tbody>
+        </table>
+
+    <section class="last">
+        <table class="table7">
+            <caption>Using border-bottom with the tr</caption>
+            <tr >
+                <th>Name</th>
+                <th>Age</th>
+                <th>Home</th>
+            </tr>
+            <tr>
+                <td>Labbi</td>
+                <td>29</td>
+                <td>Kushtia</td>
+            </tr>
+            <tr>
+                <td>Labbi</td>
+                <td>29</td>
+                <td>Kushtia</td>
+            </tr>
+            <tr>
+                <td>Labbi</td>
+                <td>29</td>
+                <td>Kushtia</td>
+            </tr>
+
+        </table>
+    </section>
+    </section>
+        
+    </body>
+       
+        
+
+</html>

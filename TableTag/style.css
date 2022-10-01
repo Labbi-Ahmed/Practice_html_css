@@ -1,0 +1,109 @@
+body{
+    margin: 0;
+}
+
+h1{
+    text-align: center;
+
+}
+
+th, td{
+    border: 4px solid rgb(0, 0, 0);
+    padding: 5px;
+}
+
+.first table{
+    border: 2px solid black;
+    text-align: left;
+    border-collapse: collapse;
+    width: 80%;
+    height: auto;
+    margin: 100px auto;   
+}
+
+.second table{
+    border: 5px solid rgb(125, 9, 9);
+    text-align: center;
+    width: 80%;
+    margin: 100px auto;   
+
+}
+
+
+td:last-child{
+    color: red;
+    text-align: center;
+
+}
+
+.table2 thead{
+background-color: rgb(229, 126, 105); 
+}
+.table2 tbody{
+    background-color:rgb(229, 175, 105);
+}
+.table3 th{
+    background-color: lightblue;
+}
+
+.table4{
+    border-color: red;
+    border-spacing: 30px;
+    
+}
+.table4 th, .table4 td{
+    border-radius: 10px;
+    padding:40px;
+    
+}
+
+.table6 tr:nth-child(even)
+ {
+    background-color: aqua;
+}
+.table6 td:nth-child(odd){
+    background-color: aqua;
+}
+
+.table6 td:last-child , .table6 td:nth-child(3){
+    background-color: black;
+    color: white;
+}
+
+.table2 td:nth-child(3){
+    text-align: center;
+    
+}
+.table3 tr:nth-child(3){
+    text-align: center;    
+}
+.table3 tr{
+    text-align: center;    
+}
+.table3 th{
+    text-align: left;
+}
+
+.twosideheader th{
+    background-color: rgb(236, 201, 156);
+}
+.last table{
+    border-collapse: collapse;
+    border: transparent;
+}
+ .table7 th, .table7 td{
+    border: transparent;
+}
+
+.table7 tr {
+    border-top: 2px solid black;
+}
+.table7 tr:last-child{
+    border-bottom: 2px solid black;
+}
+.table7 th:last-child ,.table7 td:last-child{
+    border-right: 2px solid red;
+}
+.table7 th:first-child ,.table7 td:first-child{
+    border-left: 2px solid darkblue;
+}
