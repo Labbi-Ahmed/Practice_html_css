@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html leng="en-us">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="witdht=device-width, initial-scale=1.0">
+        <title>
+            Image tag!
+        </title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" type="image/x-icon" href="Images/favicon_io/favicon.ico">
+    </head>
+    <body>
+      <div class="image-map">
+        <img src="Images/picture_example.jpg" alt="" usemap="#maparea">
+        <map name="maparea">
+            <area shape="rect" coords="62,10,315,290" href="Images/img_food.jpg" target="_blank" alt="">
+            <area shape="rect" coords="345,40,680,315" href="Images/img_car.jpg" target="_blank" alt="">
+            <area shape="rect" coords="695,75,780,300" href="Images/img_girl.jpg" target="_blank" alt="">
+        </map>
+      </div>
+      <div class="image_pictture">
+        <picture>
+            <source media="(min-width: 700px)" srcset="Images/img_food.jpg">
+            <source media="(min-width: 500px)" srcset="Images/img_car.jpg">
+            <img src="Images/cellphone.jpg" alt="dfdf">
+        </picture>
+      </div>
+
+    </body>
+
+</html>

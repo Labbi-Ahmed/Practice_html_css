@@ -1,0 +1,11 @@
+
+body{
+    background-image: url(Images/pic_trulli.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment:fixed;
+}
+h2{
+    text-align: center;
+
+}
