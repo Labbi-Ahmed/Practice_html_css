@@ -1,0 +1,46 @@
+.wrapper{
+    box-sizing: border-box;
+    display: flex;
+    max-width: 100%;
+   border: 2px solid black;
+   max-width:50%;
+ 
+   margin: auto;
+
+}
+.content{
+    display: block;
+    text-align: center;
+    border: 1px solid rgba(150, 150, 150, 0.28);
+    margin: 200px 10px;
+   
+}
+h4 code{
+    color:tomato;
+    background-color: rgba(224, 224, 224, 0.27);
+}
+button{
+    width: 80%;
+    margin: 10px 0;
+    padding: 10px;
+    background-color: rgb(89, 208, 174);
+    border: transparent;
+    border-radius: 5px;
+    color: white;
+
+    
+}
+button:hover{
+    background-color:rgb(72, 194, 159) ;
+}
+
+
+img{
+    height: 200px;
+    width: 250px;
+
+}
+
+
+/* control the all button */
+
