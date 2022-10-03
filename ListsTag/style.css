@@ -1,0 +1,7 @@
+ul{
+ list-style: lower-alpha;
+}
+ol
+{
+    list-style-type: disc;
+}
