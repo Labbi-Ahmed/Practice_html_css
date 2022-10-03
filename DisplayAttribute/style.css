@@ -4,7 +4,6 @@
     max-width: 100%;
    border: 2px solid black;
    max-width:50%;
- 
    margin: auto;
 
 }
@@ -13,6 +12,7 @@
     text-align: center;
     border: 1px solid rgba(150, 150, 150, 0.28);
     margin: 200px 10px;
+    max-width: 30%;
    
 }
 h4 code{
@@ -36,8 +36,8 @@ button:hover{
 
 
 img{
-    height: 200px;
-    width: 250px;
+   
+    width: 90%;
 
 }
 

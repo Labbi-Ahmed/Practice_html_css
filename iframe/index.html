@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iframe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+    <h1 style="display: none;" id="h1" onclick="hide()">Thsi is for iframe content hidden by click me</h1>
+    <iframe id="iframe_id" src="iframe.html"  frameborder="1" title="This is for showing iframe"> </iframe>
+    <a  onclick="showHeading()" href="#"  style="text-align: center; display:block; padding:10px; background-color:antiquewhite; width: 50%; margin:auto;text-decoration: none; border: 3px solid lightgreen; "> Click Me</a>
+
+<!-- add a script in here -->
+<script>
+    function showHeading(){
+        document.getElementById("h1").style.display = "block";
+        document.getElementById("iframe_id").src = "../TableTag/index.html";
+    }
+    function hide(){
+        document.getElementById("h1").style.display = "none";
+        document.getElementById("iframe_id").src = "iframe.html";
+       
+    }
+   
+</script>
+</body>
+</html>
