@@ -1,3 +1,14 @@
+:root{
+    --nav: rgb(174, 173, 173);
+    --header: rgb(91, 91, 91);
+    --article:  rgb(230, 230, 230);
+    --headerText: white;
+    --border: lightcoral;
+    --footer: gray;
+}
+
+
+
 *{
 
     box-sizing: border-box;
@@ -11,15 +22,15 @@ body{
     max-width: 85%;
     height: 80vh;
     margin:30px auto;
-    border: 2px solid lightcoral;
+    border: 2px solid var(--border);
     box-shadow: 2px 2px 10px rgba(208, 81, 81, 0.49);
    
 }
 header{
     text-align: center;
-    background-color: rgb(91, 91, 91);
+    background-color: var(--header);
     padding: 1px;
-    color: white;
+    color:var(--headerText);
     font-size: 36px;
     width: 100%;
     height: 20%;
@@ -28,50 +39,89 @@ header{
 ul{
     list-style: none;
 }
-section{
-   
-    background-color: antiquewhite;
+.wrapper section{     
     height: 70%;
 }
-nav{
+.wrapper nav{
     
     float: left;
     height: 100%;
     width: 25%;
-    background-color: rgb(174, 173, 173);
+    background-color: var(--nav);
     padding: 60px 0;
 }
 
-article{
+.wrapper article{
     float: left;
     width: 75%;
-    background-color: rgb(230, 230, 230);
+    background-color: var(--article);
     padding: 20px;
     height: 100%;
 }
 
-section::after{
+/* .wrapper section::after{
     content: "";
     display: table;
     clear: both;
-}
+} */
 
-footer{
-    background-color: gray;
+.wrapper footer{
+    background-color:var(--footer);
     text-align:  center;
-    color: white;
+    color: var(--headerText);
     padding: 30px;
     height: 10%;
 }
 
+/* This is for the display flex*/
+
+.fwrapper{
+    width: 80%;
+    max-width: 85%;
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+    margin:30px auto;
+    border: 2px solid var(--border);
+    box-shadow: 2px 2px 10px rgba(208, 81, 81, 0.49);
+   
+}
+
+.fsection{
+    display: flex;
+    height: 70%;
+}
+.fnav{
+    flex: 25%;
+    background-color: var(--nav);
+    height: 100%;
+    padding: 60px 0;
+}
+.farticle{
+    flex: 75%;
+    height: 100%;
+    padding: 20px;
+    background-color: var(--article);
+}
+
+.ffooter{
+    color: var(--headerText);
+    background-color: var(--footer);
+    height: 10%;
+    text-align: center;
+    padding-top: 30px;
+}
+
+
 @media  (max-width: 800px) {
-    nav, article{
+   .wrapper nav, .wrapper article{
         width: 100%;
         height: 50%;
-       
+           
     }
-    section{
-        
+    .fsection{
+        flex-direction: column;
     }
-  
+   
+    
 }
